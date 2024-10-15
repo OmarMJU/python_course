@@ -41,3 +41,17 @@ stringMethods = "The Class STRING has some Methods.     "
 print(">> Lower case: " + stringMethods.lower())
 print(">> Upper case: " + stringMethods.upper())
 print(">> Strip case: " + stringMethods.strip())
+
+# Class 5: Int, float, Bolean.
+print("------- Class 5 -------")
+x = 10
+y = 5.5
+print(type(x))
+print(type(y))
+print(x * y)
+
+isTrue = True
+isFalse = False
+
+print(type(isTrue))
+print(type(isFalse))
