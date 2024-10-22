@@ -55,3 +55,17 @@ isFalse = False
 
 print(type(isTrue))
 print(type(isFalse))
+
+# Class 6: Input data.
+print("------- Class 6 -------")
+nameUser = input("Hi. Please type your name: ")
+print(f"Hi, {nameUser}. Nice to meet you!!")
+print("The data type is: ", type(nameUser))
+
+ageUser = input("Now I need your age: ")
+print(f"Wow, {ageUser} years old. That's great!!")
+print("The data type is: ", type(ageUser))
+
+ageUserInt = int(input("Please, give me your age one more time: "))
+print(f"{ageUserInt} years old. No bad!!")
+print("The data type is: ", type(ageUserInt))
